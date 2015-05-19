@@ -1,9 +1,3 @@
-<?php
-
-include_once 'class/classNotas.php';
-$clase = new classNotas();
-$Nota = $clase->getNotaRadioTV($_GET['id']);
-?>
 <!DOCTYPE html> 
 <html>
 <head>
@@ -53,13 +47,13 @@ $Nota = $clase->getNotaRadioTV($_GET['id']);
             </div>
          <div data-role="footer" class="nav-icons" data-theme="a" data-position="fixed">
                 <div data-role="navbar" class="nav-icons" data-grid="d" >
-                    <ul>
-                       <li><a href="listaPrensa.php" class="ui-icon-prensa ui-btn-icon-top">Prensa </a></li>
-                      <li><a href="listaRadio.php"  class="ui-btn-active ui-icon-radio ui-btn-icon-top">Radio</a></li>
-                      <li><a href="listaTV.php"  class="ui-btn-active ui-icon-tv ui-btn-icon-top">TV</a></li>
+                   <ul>
+                       <li><a href="listaPrensa.html" class="ui-icon-prensa ui-btn-icon-top">Prensa </a></li>
+                      <li><a href="listaRadio.html"  class="ui-btn-active ui-icon-radio ui-btn-icon-top">Radio</a></li>
+                      <li><a href="listaTV.html"  class="ui-btn-active ui-icon-tv ui-btn-icon-top">TV</a></li>
                       
-                         <li><a href="sintesis.php"  class="ui-btn-active ui-icon-digital ui-btn-icon-top">Síntesis</a></li>
-                          <li><a href="portadas.php"  class="ui-btn-active ui-icon-portadas ui-btn-icon-top">Portadas</a></li>
+                         <li><a href="sintesis.html"  class="ui-btn-active ui-icon-digital ui-btn-icon-top">Síntesis</a></li>
+                          <li><a href="portadas.html"  class="ui-btn-active ui-icon-portadas ui-btn-icon-top">Portadas</a></li>
                          </ul>
                 </div>
             </div>
